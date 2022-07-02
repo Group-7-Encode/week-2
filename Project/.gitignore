@@ -7,3 +7,8 @@ typechain
 #Hardhat files
 cache
 artifacts
+cats.ts
+delegate.ts
+deneme.ts
+proposals.ts
+giveVotingRights.ts
