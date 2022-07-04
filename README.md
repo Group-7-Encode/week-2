@@ -1,4 +1,4 @@
-### Group 7
+### Group 8 (for week 2)
 
 # Members
 
