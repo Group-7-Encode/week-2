@@ -17,7 +17,9 @@ RUNING SCRIPT:
 `yarn ts-node ./scripts/1-deployVoteToken.ts`
 
 CONTRACT ADDRESS  0x9E32540308BA6E517F42695456a366fA78fF2834
-OUTPUT:
+
+OUTPUT (screenshot of a terminal as the output):
+
 
 ![vote_deploy_output](https://user-images.githubusercontent.com/32665644/176999758-4d828e1a-f717-4f94-bc0b-dac557371bc4.png)
 
@@ -31,14 +33,15 @@ RUNING SCRIPT:
 `yarn ts-node ./scripts/2-deployCustomBallot.ts "Pizza" "Cake" "Hamburger" "Lasagna" "Popcorn" 0x9E32540308BA6E517F42695456a366fA78fF2834`
 
 Input args:
-Proposals: "Pizza" "Cake" "Hamburger" "Lasagna"
+Proposals: "Pizza" "Cake" "Hamburger" "Lasagna" "Pocorn"
 
 VoteToken Address: 0x9E32540308BA6E517F42695456a366fA78fF2834
 
 CONTRACT ADDRESS  0xFCED99536D34c0fF0E33c999cF2F86c70BA53e7B
-OUTPUT:
 
-![customballotdeploy](https://user-images.githubusercontent.com/32665644/176999870-5feee462-5f43-464c-935c-b0a0ef507eda.png)
+OUTPUT (screenshot of a terminal as the output):
+
+![customballotdeploy](Project/Images/screenshot_deployCustomBallot_terminal.png)
 
 Rinkeby etherscan screenshot:
 

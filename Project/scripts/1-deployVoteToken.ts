@@ -31,8 +31,7 @@ async function main() {
     throw new Error("Not enough ether");
   }
 
-  console.log("Deploying Ballot contract");
-
+  console.log("Deploying Token contract");
   const tokenFactory = new ethers.ContractFactory(
     tokenJson.abi,
     tokenJson.bytecode,
