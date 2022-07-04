@@ -109,7 +109,7 @@ Ballot address used here : 0xF4A31a197a37d8472776336Da05AD8e58A6FA43D
 
 
 RUNING SCRIPT: 
-`yarn ts-node ./scripts/5-castVote.ts <ballot address> <proposal id> <voting amount>
+`yarn ts-node ./scripts/5-castVote.ts <ballot address> <proposal id> <voting amount>`
 
 Input args:
 Ballot Address : 0xF4A31a197a37d8472776336Da05AD8e58A6FA43D
@@ -120,4 +120,29 @@ voting amount :5
 
 
 
-Transaction  : 0xf89cba0276a6f096970352e633c85bb034e06039b53443a08f09b1ea6d3eebf6
+Transaction  : 
+
+
+## 6- The Winning Proposal
+
+
+
+Ballot address used here : 0xF4A31a197a37d8472776336Da05AD8e58A6FA43D
+
+
+RUNING SCRIPT: 
+`yarn ts-node --files scripts/6-winningProposal.ts <ballot address>`
+
+Input args:
+Ballot Address : 0xF4A31a197a37d8472776336Da05AD8e58A6FA43D
+
+Output :
+
+$ /home/inaki/1-blockchain-projects/encodebootcamp/08-Tokenized-Votes/Project/node_modules/.bin/ts-node --files scripts/6-winningProposal.ts 0xF4A31a197a37d8472776336Da05AD8e58A6FA43D
+
+Using address 0xc046cB6389571B43D09008828D6bC25e9997904E
+
+[ '0xF4A31a197a37d8472776336Da05AD8e58A6FA43D' ]
+The proposal with the most votes is Cake
+
+Done in 3.47s.
